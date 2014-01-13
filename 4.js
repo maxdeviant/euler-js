@@ -3,7 +3,6 @@
 		return n == n.toString().split("").reverse().join("") ? true : false;
 	};
 
-
 	var largest = 0;
 	
 	for (var i = 100; i < 1000; i++) {
